@@ -1,5 +1,9 @@
-##  참고 자료 Typescript
+## Malangu stands for
 
+Mal(Korean) langue (French) Ngu (Vietnamese/Middle Chinese)
+
+
+##  참고 자료 Typescript
 
 https://facebook.github.io/react-native/blog/2018/05/07/using-typescript-with-react-native
 
