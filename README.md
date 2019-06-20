@@ -20,3 +20,17 @@ enzyme-adapter-react-16 @types/enzyme-adapter-react-16
 react-dom   @types/react-dom
 
 2. steup files __tests__ 폴더에 설정
+
+
+<!-- native-base
+styled-components
+react-navigation
+react-native-tts
+react-native-device-info
+react-native-animatable
+react-native-firebase
+react-native-firebase-admob
+react-native-firebase-analytics
+firebase-crashlytics
+react-native-sqlite-storage
+react-typeorm -->
