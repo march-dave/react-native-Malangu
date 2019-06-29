@@ -11,7 +11,9 @@
 // import React, {Component} from 'react';
 import React from 'react';
 import { Component } from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+import {Platform, StyleSheet, Text, Image, TouchableOpacity, FlatList, View} from 'react-native';
+import data from './data.json';
+import  Icon from 'react-native-vector-icons/MaterialIcons'
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -25,9 +27,7 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to React Native!</Text>
-        <Text style={styles.instructions}>To get started, edit App.tsx</Text>
-        <Text style={styles.instructions}>{instructions}</Text>
+          <Text>Hello World</Text>
       </View>
     );
   }
