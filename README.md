@@ -34,3 +34,8 @@ react-native-firebase-analytics
 firebase-crashlytics
 react-native-sqlite-storage
 react-typeorm -->
+
+# 화면 구성에 추가 되야 할 패키지들 
+
+1. 이미지에 관련되 내용을 추가 하기 위해서 사용된다.
+react-native-vector-icons
