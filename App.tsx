@@ -27,7 +27,13 @@ interface Props { }
 export default class App extends Component<Props> {
   render() {
     return (
+      // 전체 컨테이너를 설정 하고
+      // flex: 1로 크기를 전체 다 사용 하겠다고 Layout 정한다.
       <View style={styles.container}>
+
+        {/* 위에 로고와 검색 버튼 Layout은 View 높이만 설정 한다 */}
+        {/* 여기서는 유트브 로고와 검색 버튼을 양쪽으로 갈라 놓는다. */}
+        {/* 이것을 써서 justifyContent: 'space-between'  */}
         <View style={styles.navBar}>
           <Image source={require('./images/logo.png')} style={{ width: 98, height: 22 }} />
           <View style={styles.rightNav}>
@@ -38,8 +44,9 @@ export default class App extends Component<Props> {
               <Icon style={styles.navItem} name="account-circle" size={25} />
             </TouchableOpacity>
           </View>
-
         </View>
+
+        {/* 바디는 flex: 1 전체 크기를 사용 하겠다고 정의 하는데 어차피 위쪽에서는 검색 View의 높이가 결정 되어 있고 아래쪽 tabBar도 크기가 결정 되어 있다. 그래서 flex: 1 전체 크기를 사용해도 된다 */}
         <View style={styles.body}>
           <FlatList
             data={data.items}
@@ -50,6 +57,8 @@ export default class App extends Component<Props> {
         </View>
 
 
+        {/* 여기서는 4개의 로고 홈, 트렌딩, 구독, 라이브러리 갈라 놓는다 */}
+        {/* 이것을 써서 justifyContent: 'space-around' */}
         <View style={styles.tabBar}>
           <TouchableOpacity style={styles.tabItem}>
             <Icon name="home" size={25} />
@@ -85,7 +94,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 15,
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between' 
   },
   rightNav: {
     flexDirection: 'row'
