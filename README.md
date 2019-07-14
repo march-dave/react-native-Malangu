@@ -41,3 +41,5 @@ react-typeorm -->
 react-native-vector-icons
 
 내가 참고한 자료 https://www.youtube.com/watch?v=LdKtugH-sb8
+
+2. material.io/icons 에서 설치된 백퍼 패키지의 이름을 찾는다. search를 찾으면 search icon 이름을 알 수 있다.

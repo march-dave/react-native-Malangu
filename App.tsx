@@ -58,6 +58,7 @@ export default class App extends Component<Props> {
 
 
         {/* 여기서는 4개의 로고 홈, 트렌딩, 구독, 라이브러리 갈라 놓는다 */}
+        {/* 각 아이콘 홈 버튼, 트렌팅, 구독, 폴도 이미지들은 MaterialIcons 백터이미지에 저장이 되어 있고 Icon name="home" 으로 선택 되어 진다. */}
         {/* 이것을 써서 justifyContent: 'space-around' */}
         <View style={styles.tabBar}>
           <TouchableOpacity style={styles.tabItem}>
