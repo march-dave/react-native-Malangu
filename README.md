@@ -43,3 +43,7 @@ react-native-vector-icons
 내가 참고한 자료 https://www.youtube.com/watch?v=LdKtugH-sb8
 
 2. material.io/icons 에서 설치된 백퍼 패키지의 이름을 찾는다. search를 찾으면 search icon 이름을 알 수 있다.
+
+3. splash 화면 만들다 보류중
+
+4. react-navigation 이것을 버전 2로 써야 하나 3로 써야 하나 왔다 갔다 하네.
